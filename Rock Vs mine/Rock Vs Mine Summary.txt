@@ -1,0 +1,21 @@
+Creating a scenario:
+--------------------
+ There is a war going between two countries. The submarine of one country is going in underwater to another country. The enemy country have planted some mines(explosives)
+ in the ocean that explodes when some object comes in contact with it. Here submarine needs to predict whether it is crossing a rock or a mine.
+ 
+Our job here:
+--------------
+ Our job here is to make system that can predict whether the object beneath submarine is rock or mine.
+ 
+How its done?
+--------------
+ submarine uses sonar that sends sound signals and receives it back, So this signal is then processed to detect whether the object is a mine or just a rock in the ocean.
+
+Workflow of this project:
+-------------------------
+1) Collecting Sonar Data for rock and mine 
+2) Data preprocessing 
+3) Splitting the data into train and test data
+4) Feeding the data to machine learning model.
+5) Here we are using Logistic regression model as it is binary classification model.
+6) We get trained logistic regression model which is used further, When we feed new data to this model it will pedict whether it is a mine or rock.
